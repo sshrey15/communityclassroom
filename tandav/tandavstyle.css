@@ -1,0 +1,404 @@
+html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+                                                
+}
+
+
+
+
+body{
+    margin: 0;
+    width: 100%;
+    /* overflow: hidden; */
+    
+    scroll-behavior: smooth;
+    
+}
+
+/*********************************************NAV CSS******************************************************************/
+
+
+
+.sticky{
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    
+    margin: 0;
+    justify-content: end;
+    align-items: center;
+    font-size: larger;
+    image-resolution: 20px;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+    /* padding: 10px; */
+
+    color: #6E7DFF;
+}
+
+a{
+    text-decoration: none;
+    color: #6E7DFF;
+    /* font-family: 'Urbanist'; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.gec{
+    padding-right: 65vh;
+
+}
+
+
+.right{  
+   display: flex;
+   padding-right: 90px;
+}
+
+.text{
+    padding-right: 80vh;
+    
+}
+
+
+
+
+
+.yellow{
+    background-color: #091428;
+}
+
+
+/***************************************************HOME CSS*************************************************************/
+
+.container{
+    display: flex;
+    
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    
+    
+
+}
+
+.home{
+
+    
+    
+    background-color: #091428;
+     /* /* background-image: url("assets/shiv.svg"),url("assets/moutains.svg"),url("assets/circle.svg"); */
+     background-image: url("assets/moutains.svg");
+    background-repeat: no-repeat;
+    background-position: 
+                         bottom;
+                        
+    background-size: 290vh;
+    /* animation:floatshv 9s ease-in-out infinite ;    */
+}
+
+
+
+.tandav{
+    /* font-family: 'bitling ravish', sans-serif; */
+    /* font-size:  20vh; */
+    /* color: white;
+    text-align: left;
+    text-transform: lowercase; */
+    position: absolute;
+    /* top: 50vh;    */
+    
+
+}
+
+.tandav img{
+    width: 45vw;
+    height: 20vh;
+    
+}
+
+.float{
+    position: absolute;
+    
+
+    
+    animation: float 2s ease-in-out infinite ;
+
+    
+}
+
+@keyframes float{
+    50%{
+        transform: translateY(15px);
+    }
+    
+}
+
+.float img{
+    height: 80vh;
+    width: auto;
+    
+}
+
+
+
+
+
+
+
+/* @keyframes floatshv{
+
+    0%{
+        
+        background-position-y: bottom,bottom,center;
+        transform: rotate(0deg),rotate(0deg),rotate(0deg);
+        
+       
+        
+        
+        
+        
+        
+    }
+    50%{
+        background-position-y:   center, bottom,center;
+        transform: rotate(0deg),rotate(0deg),rotate(360deg);
+        
+    }
+   
+} */
+
+.rotate{
+   position: absolute;
+   
+   top: 70px;
+  
+  
+  /* margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  
+  /* background-image: url(assets/circle.svg);
+  background-repeat: no-repeat;
+  background-size: 60vh; */
+  animation: rotate 9s linear infinite; 
+
+ 
+
+    
+}
+.rotate img{
+    height: 50vh;
+    width: auto;
+    
+    
+
+    
+
+    
+   
+
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        
+        transform: rotate(360deg);
+       
+    }
+}
+
+/* .to-rotate::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(assets/circle.svg) ;
+    background-repeat: no-repeat;
+
+} */
+
+
+
+
+
+
+/******************************************************* ABOUT CSS********************************************************* */ 
+
+.flex2{
+    display: flex;
+
+
+    background-color: #091428;
+    font-size: 10vh;
+    color: white;
+
+    padding-left: 10vw;
+    
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    color: white;
+    padding-right: 10vw;
+    padding-left: 10vw;
+
+    /* padding-top: 0; */
+    /* padding-bottom: ; */
+
+}
+
+
+.about{
+    font-family: 'bitling ravish', sans-serif ;
+
+}
+    
+    
+
+
+.blue{
+    background-color: #091428;
+}
+
+.d-block{
+    width: 50vw;
+    height: auto;
+}
+
+/*CARSUSAL*/
+
+
+
+
+/******************************************************SCHEDULE CSS***********************************************************/
+
+
+
+.schedule{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+   
+    padding-bottom: 10vh;
+    padding-left: 17.5vw;
+    padding-right: 10vw;
+    background-color: #091428;
+    color: white;
+
+    /* background-image: url("planet2.png");
+    background-repeat: no-repeat;
+    background-position:right; */
+
+}
+
+.scheduleh1{
+font-family: 'bitling ravish', sans-serif ; 
+
+}
+
+.schedulehead{
+    display: flex;
+
+    background-color: #091428;
+    font-size: 10vh;
+    color: white;
+    padding-left: 10vw;
+
+}
+
+.green{
+    background-color: #091428;
+}
+
+.list{
+    color: white;
+}
+
+
+/* .custom-shape-divider-bottom-1678196200 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1678196200 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1678196200 .shape-fill {
+    fill: #1645AF;
+} */
+
+/*******************************************************EVENTS CSS*****************************************************************/
+
+
+.events{
+    display: flex;
+
+    
+    
+
+    background-color: #091428;
+    font-size: 10vh;
+    color: white;
+    background-image: url(assets/Vector\ 2.png);
+    
+
+}
+
+.eventsh1{
+
+    
+    padding-left: 20vw;
+    display: block;
+    align-items: center;
+    justify-content:  center;  
+    
+
+    font-family: 'bitling ravish', sans-serif ; 
+    
+}
+
+
+/************************************************MOBILE CSS****************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
